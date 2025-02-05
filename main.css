@@ -17,16 +17,11 @@ h1 {
    
 }
 
-div, p {
-    font-size: 15px;
-    
-}
-
 /* Base styles */
 .container {
     background-color: #FFFFFF;
-    height:80%;
-    width: 80%;
+    height:65%;
+    width: 60%;
     border-radius: 13px;
     display: flex;
     flex-direction: column;
@@ -122,8 +117,8 @@ div, p {
 
 @media (min-width: 1200px) {
     .container {
-        height: 75vh;
-        width: 30%;
+        height: 65vh;
+        width: 25%;
     }
     
     h1{
